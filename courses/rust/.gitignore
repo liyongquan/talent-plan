@@ -1,3 +1,4 @@
 *~
 target/
 .idea/
+/projects/project-2/*.log
