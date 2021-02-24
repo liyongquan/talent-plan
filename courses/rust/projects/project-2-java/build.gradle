@@ -26,6 +26,12 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
+
+    compileOnly "org.projectlombok:lombok:1.18.2"
+    annotationProcessor "org.projectlombok:lombok:1.18.2"
+    // for src/test/java
+    testCompile "org.projectlombok:lombok:1.18.2"
+    testAnnotationProcessor "org.projectlombok:lombok:1.18.2"
 }
 
 application {
